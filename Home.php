@@ -27,7 +27,7 @@
   <div class="form-group" >
     <input  type="search" class="form-control input-sm"  name="doSearch" placeholder="Search" aria-controls="example">
   <button id= "hide" type="submit" name="submit" class="btn btn-primary"   onclick="doSomething1();">Search</button>
-    <button id="show" type="submit" name="submit" class="btn btn-default" onclick="doSomething();">Home</button></div>
+  </div>
 </form></div>
   <!-- <table class="table table-striped">
     <thead>
