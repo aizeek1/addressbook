@@ -1,0 +1,42 @@
+.heading{
+margin:3em;
+}
+
+body{
+    font-family: "Raleway",Arial,"Helvetica Neue","Helvetica",Helvetica,sans-serif !important;
+}
+td th tr{
+    text-align: center;
+    padding:15px;
+}
+th {
+    background-color: #50AAFE;
+    color: white;
+}
+
+table {
+  color: #333;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  vertical-align: middle;
+
+}
+td, th {
+  border: 1px solid transparent;
+  transition: all 0.3s;
+}
+
+td {
+  background: #FAFAFA;
+  text-align: left;
+  padding: 5px;
+}
+tr:nth-child(even) td {
+  background: #F2F2F2;
+  color:black;
+}
+tr:nth-child(odd) td {
+  background: #FEFEFE;
+  color:black;
+}
