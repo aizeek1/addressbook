@@ -13,7 +13,7 @@
           
         $search = mysql_real_escape_string($_REQUEST['doSearch']);
         $retval = mysql_query("select * from address WHERE Firstname='$search' || Lastname='$search' || Branch='$search' || Department='$search' || Telephone='$search' || Extension ='$search' || Manager='$search' order by Firstname");
-        echo '$( "#log" ).html =""';   
+       
         echo '<table id="table1">';
         echo '<tr class="ta"><th>Firstname</th><th>Lastname</th><th>Branch</th><th>Department</th><th>Telephone</th><th>Extension</th><th>Manager</th></tr>';
 
